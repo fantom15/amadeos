@@ -1,0 +1,38 @@
+.color-picker {
+    display: block;
+    margin: 10px 0 5px;
+    text-align: center;
+}
+
+.color-picker button {
+    display: inline-block;
+    padding: 3px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    background-color: #ddd;
+    border: 1px solid #aaa;
+    border-radius: 20px;
+}
+
+.color-picker button:hover {
+    border: 1px solid #444;
+}
+
+.color-picker button.selected {
+    color: #fff;
+    background-color: #f0ad4e;
+    border-color: #eea236;
+}
